@@ -1,0 +1,24 @@
+%YAML:1.0
+---
+CameraExtrinsicMat: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data: [ 0.0394  ,-0.0455 ,  0.9985 ,       0.0285,
+       -0.9992 , -0.0135  , 0.0397   ,     -0.0647,
+       0.0118 , -0.9992 , -0.0464   ,    -0.1425,
+       0    ,    0  ,      0 ,  1.0000]
+    
+CameraMat: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 608.0819091796875, 0.0, 337.033203125, 0.0, 606.6404418945312, 248.10467529296875, 0.0, 0.0, 1.0 ]
+DistCoeff: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 0.0, 0.0, 0.0, 0.0, 0.0 ]
+ImageSize: [ 640, 480 ]
+ReprojectionError: 0
+DistModel: plumb_bob
